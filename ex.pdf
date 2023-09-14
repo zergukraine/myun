@@ -1,0 +1,21 @@
+Validation technique QA automaticien
+Objectifs :
+• Rédiger l’automatisation des deux scénarios suivants
+• Partager les scripts ainsi automatisés sur un repository git
+Données de test :
+URL : https://app.myunisoft.fr
+Compte utilisateur : user.test.cabinet+myunisoft_candidat@myunisoft.fr
+Mot de passe : G00D_LuCk
+Premier exercice :
+Ecrire un test de bout en bout qui permet de vérifier que l’utilisateur s’est correctement authentifié.
+• Naviguer vers l’application
+• Renseigner les champs du formulaire d’identification en vue de l’authentification
+• Soumettre les informations d’identification
+• Valider l’existence d’un ou plusieurs éléments sur la page et qui permet d’attester que l’utilisateur est correctement authentifié
+Second exercice :
+Manipuler les API pour modifier le jeu de données.
+• A l’aide des données de test, et sans interagir avec l’interface utilisateur, modifier le mot de passe utilisateur en utilisant la route PUT /user/password
+o Pour observer le comportement de la route, on peut réaliser l’action manuelle de mise à jour du mot de passe en cliquant sur l’avatar en haut à droite
+• Redéfinir le mot de passe à sa valeur d’origine (afin de pouvoir rejouer le premier exercice).
+Troisième exercice :
+Partager les automatisations réalisées sur un repository git
